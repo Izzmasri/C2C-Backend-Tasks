@@ -45,7 +45,9 @@ Use the `fs` module when reading certificate files needed for setting up secure 
 
 ---
 
-## 🛠️ Example: HTTPS with HTTP/1.1
+## 🛠️ Examples: 
+
+HTTPS with HTTP/1.1
 
 ```js
 const https = require('https');
@@ -61,7 +63,9 @@ https.createServer(options, (req, res) => {
   res.end("Hello from HTTPS using HTTP/1.1");
 }).listen(443);
 
-## 🛠️ Example: HTTPS with HTTP/2
+---
+
+ HTTPS with HTTP/2
 
 ```js
 const http2 = require('http2');
